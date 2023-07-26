@@ -1,0 +1,342 @@
+
+@import "./../../../../variables.scss";
+.banner{
+    min-height: 100vh;
+    
+    .container{
+        display: table;
+        height: 100vh;
+
+        .section-box-banner{
+            display: table-cell;
+            vertical-align: middle;
+
+            .content{
+                margin-top: 98px;
+            }
+
+            h1{
+    
+                color: #64ffda;
+                margin: 0 0 20px 3px;
+                font-size: 16px;
+                font-weight: normal;
+                font-family: $CodeFont;
+            }
+
+
+            h2{
+                font-weight: 600;
+                font-size: 80px;
+                line-height: 1.1;
+                margin: 0;
+                font-family: $MainFont;
+                color: $LightestSlate;
+            }
+            h3{  
+                font-weight: 500;
+                font-size: 60px;
+                line-height: 1.1;
+                margin: 0;
+                font-family: $MainFont;
+                color: $Slate;
+            }
+
+            .banner-description{
+                margin-bottom: 70px;
+            }
+
+            p{
+                max-width: 500px;
+            }
+
+            .div-btn-banner{
+                height: 43px;
+            }
+            
+            .banner-title{
+                filter: url(filters.svg#grayscale);
+                /* Firefox 3.5+ */
+                filter: gray;
+                /* IE6-9 */
+                -webkit-filter: grayscale(1);
+                .position-angular{
+                    position: relative;
+                    left: -9px;
+                    top: -25px;
+                }
+                .one-percent{
+                    color: greenyellow;
+                    font-family: Creattion;
+                    font-weight: bold;
+                    font-size: 6.25rem;
+                    letter-spacing: 3px;
+                }
+                .better{
+                    color: greenyellow;
+                    font-family: Creattion;
+                    font-weight: bold;
+                     font-size: 7.8rem;
+                    letter-spacing: 3px;
+                }
+                .everyday{
+                    color: greenyellow;
+                    font-family: Creattion;
+                    font-weight: bold;
+                    font-size: 9.375rem;
+                    letter-spacing: 3px;
+                }
+            }
+            .banner-title:hover{
+                filter: none;
+            -webkit-filter: none;
+            .position-angular{
+                position: relative;
+                left: -9px;
+                top: -25px;
+            }
+                .one-percent{
+                    color: greenyellow;
+                    font-family: Creattion;
+                    font-weight: bold;
+                    font-size: 6.25rem;
+                    letter-spacing: 3px;
+                }
+                .better{
+                    color: greenyellow;
+                    font-family: Creattion;
+                    font-weight: bold;
+                     font-size: 7.8rem;
+                    letter-spacing: 3px;
+                }
+                .everyday{
+                    color: greenyellow;
+                    font-family: Creattion;
+                    font-weight: bold;
+                    font-size: 9.375rem;
+                    letter-spacing: 3px;
+                }
+            }
+        }
+
+       
+    }    
+}
+@media (max-width: 1000px) {
+    .banner {
+        .container {
+            .section-box-banner{
+                .banner-title{
+                    filter: url(filters.svg#grayscale);
+                    /* Firefox 3.5+ */
+                    filter: gray;
+                    /* IE6-9 */
+                    -webkit-filter: grayscale(1);
+                    .position-angular{
+                        position: relative;
+                        left: -9px;
+                        top: -25px;
+                    }
+                    .one-percent{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                        font-size: 6.25rem;
+                        letter-spacing: 3px;
+                    }
+                    .better{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                        font-size: 7.8rem;
+                        letter-spacing: 3px;
+                    }
+                    .everyday{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                        font-size: 9.375rem;
+                        letter-spacing: 3px;
+                    }
+                }
+                .banner-title:hover{
+                    filter: none;
+                -webkit-filter: none;
+                .position-angular{
+                    position: relative;
+                    left: -9px;
+                    top: -25px;
+                }
+                    .one-percent{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                        font-size: 6.25rem;
+                        letter-spacing: 3px;
+                    }
+                    .better{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                        font-size: 7.8rem;
+                        letter-spacing: 3px;
+                    }
+                    .everyday{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                        font-size: 9.375rem;
+                        letter-spacing: 3px;
+                    }
+                }
+            
+            }
+        }
+    }
+}
+
+@media (max-width: 827px) {
+    .banner {
+        .container{
+            .section-box-banner{
+                .banner-title{
+                    filter: url(filters.svg#grayscale);
+                    /* Firefox 3.5+ */
+                    filter: gray;
+                    /* IE6-9 */
+                    -webkit-filter: grayscale(1);
+                    .position-angular{
+                        position: relative;
+                        left: -9px;
+                        top: -25px;
+                    }
+                    .one-percent{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                        font-size: 6.25rem;
+                        letter-spacing: 3px;
+                    }
+                    .better{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                         font-size: 7.8rem;
+                        letter-spacing: 3px;
+                    }
+                    .everyday{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                        font-size: 9.375rem;
+                        letter-spacing: 3px;
+                    }
+                }
+                .banner-title:hover{
+                    filter: none;
+                -webkit-filter: none;
+                .position-angular{
+                    position: relative;
+                    left: -9px;
+                    top: -25px;
+                }
+                    .one-percent{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                        font-size: 6.25rem;
+                        letter-spacing: 3px;
+                    }
+                    .better{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                         font-size: 7.8rem;
+                        letter-spacing: 3px;
+                    }
+                    .everyday{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                        font-size: 9.375rem;
+                        letter-spacing: 3px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 827px) {
+    .banner{
+        .container{
+            .section-box-banner{
+                .banner-title{
+                    filter: url(filters.svg#grayscale);
+                    /* Firefox 3.5+ */
+                    filter: gray;
+                    /* IE6-9 */
+                    -webkit-filter: grayscale(1);
+                    .position-angular{
+                        position: relative;
+                        left: -9px;
+                        top: -25px;
+                    }
+                    .one-percent{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                        font-size: 6.25rem;
+                        letter-spacing: 3px;
+                    }
+                    .better{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                         font-size: 7.8rem;
+                        letter-spacing: 3px;
+                    }
+                    .everyday{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                        font-size: 9.375rem;
+                        letter-spacing: 3px;
+                    }
+                }
+                .banner-title:hover{
+                    filter: none;
+                -webkit-filter: none;
+                .position-angular{
+                    position: relative;
+                    left: -9px;
+                    top: -25px;
+                }
+                    .one-percent{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                        font-size: 6.25rem;
+                        letter-spacing: 3px;
+                    }
+                    .better{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                         font-size: 7.8rem;
+                        letter-spacing: 3px;
+                    }
+                    .everyday{
+                        color: greenyellow;
+                        font-family: Creattion;
+                        font-weight: bold;
+                        font-size: 9.375rem;
+                        letter-spacing: 3px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
